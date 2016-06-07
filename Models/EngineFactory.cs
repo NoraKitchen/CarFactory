@@ -5,7 +5,7 @@ public class EngineFactory
         return new Engine
         {
             Name = "v" + cylinders.ToString(),
-            Cylinders = cylinders
+            Cylinders = cylinders,
         };
     }
 }
